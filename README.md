@@ -3,10 +3,8 @@ I work from home, so it's easy for me to forget to take breaks while I'm working
 
 To use this plist file, edit the string (name), and save it to ~/Library/LaunchAgents. Add the voices.sh file somewhere in your path, and edit the plist to reflect tht path:
 ```
-  <key>ProgramArguments</key>
-  <array>
+  <key>Program</key>
     <string>/path/goes/here/motivator/voices.sh</string>
-  </array>
 ```
 Make sure the plist is owned by root. To start the plist, enter the following commands:
 sudo launchctl load com.motivator.cron.plist

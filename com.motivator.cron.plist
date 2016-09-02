@@ -5,10 +5,8 @@
   <key>Label</key>
   <string>com.mercmotivator.cron</string>
 
-  <key>ProgramArguments</key>
-  <array>
+  <key>Program</key>
     <string>/Users/mercedes/dev/motivator/voices.sh</string>
-  </array>
 
   <key>Nice</key>
   <integer>1</integer>
